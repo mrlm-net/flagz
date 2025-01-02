@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import Flagger from './flagger';
+import { Flagger } from './flagger';
 
 describe('Flagger', () => {
     it('should get and set simple keys', () => {

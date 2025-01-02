@@ -8,7 +8,7 @@ const defaultOptions: FlaggerOptions = {
     separator: '.',
 };
 
-export default class Flagger {
+export class Flagger {
     private flags: Record<string, any>;
     private separator: string;
 
